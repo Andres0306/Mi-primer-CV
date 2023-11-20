@@ -1,0 +1,80 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background: url('ruta/de/tu/fondo_creativo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: #0F90F0;
+    color: #fff;
+    text-align: right; /* Cambiado a alineación a la derecha */
+    padding: 1em;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-profile {
+    width: 80px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%;
+    margin-left: 1em;
+}
+
+.personal-info {
+    text-align: right;
+    color: #fff;
+}
+
+.personal-info p {
+    margin: 1em 0;
+}
+
+.main-content {
+    margin: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2.5em; /* Tamaño de fuente más grande */
+    color: #0F90F0; /* Color azul */
+    border-bottom: 2px solid #0F90F0; /* Subrayado */
+    padding-bottom: 0.2em; /* Espaciado del subrayado */
+}
+
+header h1 {
+    text-align: left; /* Alineación a la izquierda */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .image-profile {
+        margin: 0;
+        margin-bottom: 0.5em;
+    }
+}
